@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-image: url('Images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(70, 70, 70, 0.8); 
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%; 
+    max-width: 450px;
+    max-height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(7px);
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    background: rgba(70, 70, 70, 0.8); 
+    opacity: 50%;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(7px);
+    font-size: 16px;
+}
+
+.login-container button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(70, 70, 70, 0.8);
+    opacity: 50%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(7px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #a4a4a4;
+}
+
+.login-container .help-link {
+    display: block;
+    margin-top: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.login-container .help-link:hover {
+    text-decoration: underline;
+}
+
